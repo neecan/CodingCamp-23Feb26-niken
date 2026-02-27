@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Website</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet"
+ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+ <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo"><img src="img/Logo_revou.png" width="50"></div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#profile">Our Profile</a>
+      <a href="#hq">Our Programs</a>
+      <a href="#message">Message Us</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1 id="header">Hi, Welcome To RevoU</h1>
+      <h2>Indonesia’s Largest Professional Skilling Platform</h2>
+      <p>Master today’s most in-demand digital and AI skills with industry leaders, get personalized mentorship, and access a community rich in career opportunities!</p>
+      <img src="https://storage.googleapis.com/danacita-website-v3-prd/website_v3/images/Biaya_bootcamp_RevoU_6.original.png" class="hero-img">
+    </section>
+
+    <section class="hq" id="hq">
+      <h2>Explore Our Programs</h2>
+      <div class="icon-grid">
+
+  <div class="icon-item">
+    <div class="circle">
+      <!-- Data Analytics icon -->
+      <i class="fa-solid fa-chart-column"></i>
+    </div>
+    <p>Data Analytics</p>
+  </div>
+
+  <div class="icon-item">
+    <div class="circle">
+      <!-- Digital Marketing icon -->
+      <i class="fa-solid fa-bullhorn"></i>
+    </div>
+    <p>Digital Marketing</p>
+  </div>
+
+  <div class="icon-item">
+    <div class="circle">
+      <!-- Software Engineering icon -->
+      <i class="fa-solid fa-code"></i>
+    </div>
+    <p>Software Engineering</p>
+  </div>
+
+</div>
+    </section>
+
+    <section class="profile" id="profile">
+  <h2>Our Profile</h2>
+
+  <div class="profile-banner">
+    <img src="https://static.wixstatic.com/media/ab5dd5_1c0ecc528bf14d91a6baac2877f0fd5d~mv2.webp/v1/fill/w_1139,h_344,al_c,q_85,enc_avif,quality_auto/cxrc.webp" alt="Company Banner" class="hero-img">
+  </div>
+
+  <div class="about">
+    <h3>About the Company</h3>
+    <p>
+      PT Revolusi Cita Edukasi, dikenal sebagai RevoU, adalah perusahaan edutech terkemuka di Indonesia yang fokus pada pelatihan keterampilan digital, seperti digital marketing, data analytics, product management, dan software engineering. Didirikan pada tahun 2019, RevoU menawarkan bootcamp online intensif yang dibimbing oleh praktisi industri untuk meningkatkan karir profesional. 
+    </p>
+  </div>
+
+  <div class="vision-mission">
+    <div class="vision">
+      <h3>Vision</h3>
+      <p>
+        RevoU berfokus pada hasil dan memiliki komitmen tinggi untuk menyediakan pendidikan teknologi yang berkualitas dan terjangkau di Asia Tenggara. 
+      </p>
+    </div>
+
+    <div class="mission">
+      <h3>Mission</h3>
+      <ul>
+        <li>Fokus Pendidikan: Menjembatani kesenjangan keterampilan di industri teknologi dengan pelatihan intensif (Job Connector).</li>
+        <li>Program Unggulan: Digital Marketing, Data Analytics, Product Management, dan Software Engineering.</li>
+        <li>Fleksibilitas: Kelas dilakukan secara online (live zoom) pada malam hari, cocok untuk profesional yang bekerja.</li>
+        <li>Kurikulum Praktis: Berbasis studi kasus, capstone project, dan mentoring langsung dari ahli industri.</li>
+        <li>Mitra Kampus Merdeka: RevoU berpartisipasi dalam program Studi Independen Bersertifikat, seperti RevoU Tech Academy.</li>
+        <li>Koneksi Karir: Menyediakan dukungan karir untuk membantu lulusan mendapatkan pekerjaan. </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+    <section class="message" id="message">
+      <h2>Message Us</h2>
+      <div class="message-container">
+        <form id="messageForm">
+          <label>Nama :</label>
+          <input type="text" id="name" required />
+
+          <label>Tanggal Lahir :</label>
+          <input type="date" id="birth" required />
+
+          <label>Jenis Kelamin :</label>
+          <div class="gender">
+            <label><input type="radio" name="gender" value="Laki-Laki" required /> Laki-Laki</label>
+            <label><input type="radio" name="gender" value="Perempuan" /> Perempuan</label>
+          </div>
+
+          <label>Pesan :</label>
+          <textarea id="messageText" rows="4" required></textarea>
+
+          <button type="submit" id="btnKlik">Submit</button>
+        </form>
+
+        <div class="result" id="resultBox">
+          <p>Current time: -</p>
+          <p>Nama: -</p>
+          <p>Tanggal Lahir: -</p>
+          <p>Jenis Kelamin: -</p>
+          <p>Pesan: -</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Created by Revou</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
